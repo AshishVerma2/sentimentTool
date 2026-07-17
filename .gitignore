@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv*/
+env/
+
+# Logs
+logs/
+*.log
+
+# Model files (extracted - not needed in repo)
+sentiment-server/SenseVoiceSmall/
+
+# Deploy artifacts
+voice-sentiment-deploy.zip
+
+# Environment
+.env
+!sentiment-server/.env
+
+# OS
+.DS_Store
+Thumbs.db
